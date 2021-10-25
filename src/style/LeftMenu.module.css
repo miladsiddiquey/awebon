@@ -1,0 +1,13 @@
+#left_menu{
+    border-radius: 10px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+#Left_menu_ul{
+    padding:20px 30px;
+}
+.left_menu_li{
+    position: relative;
+    margin-top: 20px;
+}
