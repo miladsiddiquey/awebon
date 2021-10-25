@@ -1,0 +1,30 @@
+.collImg img{
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+}
+.callSection{
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    padding:20px;
+}
+.callInput input{
+    height:40px;
+    width:100%;
+    padding:5px 10px;
+    border-radius:25px;
+    outline:none;
+    border:none;
+    flex:1;
+    background:#eee;
+    margin-left:10px;
+}
+.callIcons i{
+    
+    padding:3px;
+    border-radius: 50px;
+    background-color: tomato;
+    color:white;
+    cursor: pointer;
+}

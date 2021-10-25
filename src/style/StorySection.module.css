@@ -1,0 +1,88 @@
+.middlePanel{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.middlePanel .storySection {
+    display:flex;
+    padding:1rem;
+}
+
+.middlePanel .storySection  .story{
+    width:120px;
+    height:200px;
+    border-radius: 10px;
+    position: relative;
+    overflow:hidden;
+    cursor: pointer;
+    margin:0px 5px;
+    box-shadow: 0 0 5px 5px #ddd;
+    background:#fff;
+}
+
+.middlePanel .storySection  .story > img{
+    height:100%;
+    transition:.3s ease-in;
+}
+
+.middlePanel .storySection  .story:hover > img{
+    transform:scale(1.05);
+}
+
+.middlePanel .storySection .story .dpContainer{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    overflow:hidden;
+    position:absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%);
+    border:royalblue 4px solid; 
+}
+
+.middlePanel .storySection .story .dpContainer > img{
+    width:100%;
+    height:100%;
+}
+
+.middlePanel .storySection .story .name{
+    position:absolute;
+    bottom:0px;
+    left:10px;
+    font-size: 13px;
+    padding:5px;
+    color:#fff;
+    font-weight:bold;
+}
+
+.middlePanel .storySection .story.create .dpImage{
+    height:80%;
+    overflow:hidden;
+}
+
+.middlePanel .storySection .story.create .dpImage img{
+    width:100%;
+}
+
+.middlePanel .storySection .story.create .dpContainer{
+    top:70%;
+    left:50%;
+    transform: translateX(-50%);
+    display:grid;
+    place-items: center;
+    background:royalblue;
+    border:4px solid #fff;
+}
+
+.middlePanel .storySection .story.create .dpContainer i{
+    color: #fff;
+}
+
+.middlePanel .storySection .story.create .name{
+    color: #000;
+    font-size:15px;
+    left:10px;
+}
